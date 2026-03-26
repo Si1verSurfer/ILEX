@@ -348,6 +348,14 @@ flowchart LR
 
 The app implements an **on-device thermal printing pipeline** for **shipping waybills** using **Sunmi** Android POS / printer hardware via the [`sunmi_printer_plus`](https://pub.dev/packages/sunmi_printer_plus) plugin. This is separate from **PDF download** (`downloadShippingLabelPDF`), which uses the API lading endpoint and `file_saver`—both options appear on `ShipmentPriceView` after a shipment exists.
 
+<p align="center">
+  <img src="1a8093b4-ac73-494f-9471-2c3de5d8d7a2.JPG" width="480" alt="Example Sunmi thermal shipping receipt: Arabic shipping document (بوليصة شحن) with tracking QR" />
+</p>
+
+<p align="center">
+  <sub><strong>Example output:</strong> a physical slip from <code>printTheShippingLabel</code>—header and title, scan-to-track QR, route and parties, packages, payment, legal text, and terms QR before the cut.</sub>
+</p>
+
 ### Role in the product
 
 | Output | Channel | Typical use |
