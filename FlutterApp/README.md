@@ -209,13 +209,14 @@ flowchart TB
   TOK -->|No| LOGIN[LoginView + AuthBinding]
   TOK -->|Yes| MAIN[MainView + MainBinding]
 
-  MAIN --> subgraph Tabs["Main shell"]
+  subgraph Tabs["Main shell"]
     CP[Control panel]
     TR[Trips area]
     SH[Shipments area]
     MO[More / profile]
   end
 
+  MAIN --> CP
   LOGIN --> MAIN
 ```
 
