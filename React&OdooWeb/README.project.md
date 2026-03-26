@@ -1,13 +1,11 @@
 # ILEX Logistics — complete project documentation
 
 <p align="center">
-  <img src="ilex_logistics/ilex_react/public/favicon.svg" width="80" height="80" alt="ILEX app icon (favicon)" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="ilex_logistics/ilex_react/assets/icons/logo.png" height="80" alt="ILEX wordmark logo" />
+  <img src="../linesLogo.svg" height="80" alt="ILEX wordmark logo" />
 </p>
 
 <p align="center">
-  <sub>App icon: <code>ilex_logistics/ilex_react/public/favicon.svg</code> · Primary logo: <code>ilex_logistics/ilex_react/assets/icons/logo.png</code> (header, footer, login)</sub>
+  <sub>Wordmark: <code>linesLogo.svg</code> at repo root (full React/Odoo app uses assets under <code>ilex_logistics/ilex_react/</code> when deployed)</sub>
 </p>
 
 ---
