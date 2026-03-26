@@ -1,7 +1,7 @@
 # GithubCV Projects — ILEX / iLex logistics portfolio
 
 <p align="center">
-  <img src="linesLogo.svg" height="80" alt="ILEX wordmark logo" />
+  <img src="linesLogo.svg" height="140" alt="ILEX wordmark logo" />
 </p>
 
 This workspace groups two production-oriented **ILEX (iLex)** logistics projects: a **field operations mobile app** and a **public web portal** embedded in Odoo. Each folder ships its own long-form documentation (architecture, Mermaid diagrams, setup, and CV-ready bullets).

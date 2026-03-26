@@ -1,7 +1,7 @@
 # ILEX Logistics — complete project documentation
 
 <p align="center">
-  <img src="../linesLogo.svg" height="80" alt="ILEX wordmark logo" />
+  <img src="../linesLogo.svg" height="140" alt="ILEX wordmark logo" />
 </p>
 
 <p align="center">
